@@ -15,18 +15,18 @@ public class Drive extends StateMachine{
                 break;
             case DRIVING:
                 if (RobotMap.XMotion > 0) {
-                    double leftspeed = (1 - RobotMap.XMotion) + (RobotMap.YMotion);
-                    double rightspeed = (RobotMap.XMotion) + (RobotMap.YMotion);
+                    double leftspeed = ((1 - RobotMap.XMotion) + (RobotMap.YMotion)) * RobotMap.Throttle;
+                    double rightspeed = ((RobotMap.XMotion) + (RobotMap.YMotion)) * RobotMap.Throttle;
                     DriveTrain.drive(leftspeed, rightspeed);
                 }
                 if (RobotMap.XMotion < 0) {
-                    double leftspeed = (RobotMap.XMotion) + (RobotMap.YMotion);
-                    double rightspeed = (1 - RobotMap.XMotion) + (RobotMap.YMotion);
+                    double leftspeed = ((RobotMap.XMotion) + (RobotMap.YMotion)) * RobotMap.Throttle;
+                    double rightspeed = ((1 - RobotMap.XMotion) + (RobotMap.YMotion)) * RobotMap.Throttle;
                     DriveTrain.drive(leftspeed, rightspeed);
                 }
                 if (RobotMap.XMotion == 0) {
-                    double leftspeed = RobotMap.YMotion;
-                    double rightspeed = RobotMap.YMotion;
+                    double leftspeed = RobotMap.YMotion * RobotMap.Throttle;
+                    double rightspeed = RobotMap.YMotion * RobotMap.Throttle;
                     DriveTrain.drive(leftspeed, rightspeed);
                 }
         }
