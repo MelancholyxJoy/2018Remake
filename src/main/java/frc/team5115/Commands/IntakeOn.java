@@ -12,7 +12,7 @@ public class IntakeOn extends Command {
         Robot.intake.IntakeOn();
     }
     protected boolean isFinished() {
-        return false;
+        return true;
     }
     protected void end() {
         Robot.intake.IntakeOff();

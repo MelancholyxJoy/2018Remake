@@ -5,6 +5,6 @@ import edu.wpi.first.wpilibj.command.Command;
 public class BunnyExtenderExtended extends Command {
     @Override
     protected boolean isFinished() {
-        return false;
+        return true;
     }
 }
