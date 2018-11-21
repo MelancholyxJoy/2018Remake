@@ -12,8 +12,7 @@ public class Robot extends IterativeRobot {
     public static SmartDebug smartDebug;
 
     //Subsystems
-    public static BunnyDropper bunnyDropper;
-    public static BunnyExtender bunnyExtender;
+    public static Extender extender;
     public static Drive drive;
     public static Flap flap;
     public static Intake intake;
@@ -23,8 +22,7 @@ public class Robot extends IterativeRobot {
         robotMap = new RobotMap();
         smartDebug = new SmartDebug();
 
-        bunnyDropper = new BunnyDropper();
-        bunnyExtender = new BunnyExtender();
+        extender = new Extender();
         drive = new Drive();
         flap = new Flap();
         intake = new Intake();

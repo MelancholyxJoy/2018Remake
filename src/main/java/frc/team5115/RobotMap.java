@@ -5,8 +5,8 @@ import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 import com.kauailabs.navx.frc.AHRS;
 import edu.wpi.first.wpilibj.*;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
-import frc.team5115.Commands.IntakeOn;
-import frc.team5115.robot.Robot;
+import frc.team5115.Commands.Extend;
+import frc.team5115.Commands.Intaking;
 
 
 public class RobotMap {
@@ -63,9 +63,13 @@ public class RobotMap {
     public static AHRS navx;
 
     public static DoubleSolenoid director;
+    public static DoubleSolenoid extender;
 
     public static Spark leftIntake;
     public static Spark rightIntake;
+
+    //Checking for things
+    boolean isOurs;
 
     //Component ID's
     public static final int FrontLeftTalonID = 3;
@@ -76,16 +80,18 @@ public class RobotMap {
     public static final int LeftIntakeSpark = 1;
     public static final int RightIntakeSpark = 2;
 
-    public static final int PCMID = 1;
+    public static final int PCMIDDirector = 1;
+    public static final int PCMIDExtender = 2;
 
     public static final int IntakeForward = 1;
     public static final int IntakeReverse = 2;
 
+    public static final int ExtenderForward = 1;
+    public static final int ExtenderReverse = 2;
+
     //Button ID's
     public static final int Intake = 5;
-    public static final int ExtendBunnyArm = 7;
-    public static final int RetractBunnyArm = 8;
-    public static final int DropBunny = 9;
+    public static final int Extend = 7;
 
     //Robot Attributes
     public static final int IntakeOnSpeed = 1;
@@ -93,15 +99,21 @@ public class RobotMap {
     //Joystick
     public static Joystick joystick = new Joystick(0);
 
-    //Button Commands
+    //Joystick Axis
     public static double XValue() { return joystick.getX();}
     public static double YValue() { return joystick.getY();}
     public static double Throttle() { return ((-joystick.getThrottle() + 1) / 2);}
 
     public RobotMap() {
+        //Joystick Buttons
         JoystickButton Intake = new JoystickButton(joystick, RobotMap.Intake);
-        Intake.toggleWhenPressed(new IntakeOn());
+        Intake.toggleWhenPressed(new Intaking());
 
+        JoystickButton Extend = new JoystickButton(joystick, RobotMap.Extend);
+        Extend.whenPressed(new Extend());
+
+
+        //Power Distribution Panel
         RobotMap.PDP = new PowerDistributionPanel();
 
         //10 PWM channels
@@ -161,9 +173,10 @@ public class RobotMap {
         RobotMap.navx = new AHRS(SPI.Port.kMXP);
 
         //Solenoid
-        RobotMap.director = new DoubleSolenoid(PCMID, IntakeForward, IntakeReverse);
+        RobotMap.director = new DoubleSolenoid(PCMIDDirector, IntakeForward, IntakeReverse);
+        RobotMap.extender = new DoubleSolenoid(PCMIDExtender, ExtenderForward, ExtenderReverse);
 
-        //Spark(maybe)
+        //Spark
         RobotMap.leftIntake = new Spark(LeftIntakeSpark);
         RobotMap.rightIntake = new Spark(RightIntakeSpark);
     }

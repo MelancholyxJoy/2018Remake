@@ -7,7 +7,7 @@ public class Intake extends Subsystem {
     @Override
     protected void initDefaultCommand() { }
 
-    public void IntakeOn() {
+    public void Intaking() {
         RobotMap.leftIntake.set(RobotMap.IntakeOnSpeed);
         RobotMap.rightIntake.set(-RobotMap.IntakeOnSpeed);
     }

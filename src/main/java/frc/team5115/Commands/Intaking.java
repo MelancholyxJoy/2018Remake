@@ -3,13 +3,11 @@ package frc.team5115.Commands;
 import edu.wpi.first.wpilibj.command.Command;
 import frc.team5115.robot.*;
 
-public class IntakeOn extends Command {
+public class Intaking extends Command {
 
-    public IntakeOn() {
-        requires(Robot.intake);
-    }
+    public Intaking() { requires(Robot.intake); }
     protected void initialize() {
-        Robot.intake.IntakeOn();
+        Robot.intake.Intaking();
     }
     protected boolean isFinished() {
         return true;

@@ -1,8 +1,6 @@
 package frc.team5115;
 
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import frc.team5115.robot.Robot;
-
 
 public class SmartDebug {
     public void SmartDebug() {

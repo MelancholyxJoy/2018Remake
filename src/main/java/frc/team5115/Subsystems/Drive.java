@@ -12,7 +12,7 @@ public class Drive extends Subsystem {
 
     public void Drive() {
         double leftspeed = (YValue() + XValue()) * Throttle();
-        double rightspeed = (-YValue() - XValue()) * Throttle();
+        double rightspeed = -(YValue() - XValue()) * Throttle();
 
 
         RobotMap.backLeft.set(ControlMode.PercentOutput, leftspeed);
