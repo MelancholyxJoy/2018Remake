@@ -7,6 +7,7 @@ import edu.wpi.first.wpilibj.*;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 import frc.team5115.Commands.Extend;
 import frc.team5115.Commands.Intaking;
+import frc.team5115.Commands.Outtaking;
 
 
 public class RobotMap {
@@ -91,6 +92,7 @@ public class RobotMap {
 
     //Button ID's
     public static final int Intake = 5;
+    public static final int Outtake = 6;
     public static final int Extend = 7;
 
     //Robot Attributes
@@ -109,9 +111,11 @@ public class RobotMap {
         JoystickButton Intake = new JoystickButton(joystick, RobotMap.Intake);
         Intake.toggleWhenPressed(new Intaking());
 
+        JoystickButton Outtake = new JoystickButton(joystick, RobotMap.Outtake);
+        Outtake.toggleWhenPressed(new Outtaking());
+
         JoystickButton Extend = new JoystickButton(joystick, RobotMap.Extend);
         Extend.whenPressed(new Extend());
-
 
         //Power Distribution Panel
         RobotMap.PDP = new PowerDistributionPanel();
