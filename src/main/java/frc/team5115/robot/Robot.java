@@ -1,59 +1,49 @@
 package frc.team5115.robot;
 
-import edu.wpi.first.wpilibj.IterativeRobot;
-import frc.team5115.RobotMap;
-import frc.team5115.SmartDebug;
-import frc.team5115.Subsystems.*;
+import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj.command.Scheduler;
+import frc.team5115.Systems.*;
 
+public class Robot extends TimedRobot {
 
-public class Robot extends IterativeRobot {
     //Key Files
-    public static RobotMap robotMap;
+    public static Controls controls;
     public static SmartDebug smartDebug;
 
     //Subsystems
-    public static Extender extender;
-    public static Drive drive;
-    public static Flap flap;
-    public static Intake intake;
+    public static BunnyExtender bunnyExtender;
+    public static DriveTrain driveTrain;
+    public static BallDiverter flap;
+    public static Intaker intake;
+    public static Outtaker outtake;
+
+    //Auto
 
     @Override
     public void robotInit() {
-        robotMap = new RobotMap();
+        controls = new Controls();
         smartDebug = new SmartDebug();
 
-        extender = new Extender();
-        drive = new Drive();
-        flap = new Flap();
-        intake = new Intake();
+        bunnyExtender = new BunnyExtender();
+        driveTrain = new DriveTrain();
+        flap = new BallDiverter();
+        intake = new Intaker();
+        outtake = new Outtaker();
     }
 
     @Override
-    public void disabledInit() { }
+    public void testInit () { }
 
-    @Override
-    public void autonomousInit() { }
+    public void disabledPeriodic () { }
 
+    public void autonomousPeriodic () {
 
-    public void teleopInit() {
     }
 
-    @Override
-    public void testInit() { }
-
-
-    @Override
-    public void disabledPeriodic() { }
-    
-    @Override
-    public void autonomousPeriodic() { }
-
-    @Override
-    public void teleopPeriodic() {
-        drive.Drive();
+    public void teleopPeriodic () {
+        Scheduler.getInstance().run();
         smartDebug.SmartDebug();
     }
 
-    @Override
-    public void testPeriodic() { }
+    public void testPeriodic () { }
 }
