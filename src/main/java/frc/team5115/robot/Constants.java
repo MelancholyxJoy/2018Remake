@@ -2,8 +2,8 @@ package frc.team5115.robot;
 
 public class Constants {
 
+    //PID values
     public static final double DELAY = 0.005;
-
     public static final double AUTO_FORWARD_KP = 0.4;
     public static final double AUTO_FORWARD_KI = 0;
     public static final double AUTO_FORWARD_KD = 0.1;
@@ -23,7 +23,7 @@ public class Constants {
 
     public static int IntakeSpark = 1;
 
-    //Solenoid ports
+    //Solenoid
     public static int ExtenderForward = 1;
     public static int ExtenderReverse = 2;
 

@@ -1,6 +1,7 @@
 package frc.team5115.Logger;
 
 import com.opencsv.CSVWriter;
+import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.Joystick;
 
 import java.io.File;
@@ -20,15 +21,21 @@ public class Writer {
         File auto = new File(filePath);
         try {
             FileWriter outputfile = new FileWriter(auto);
-            CSVWriter writer  = new CSVWriter(outputfile);
+            CSVWriter writer = new CSVWriter(outputfile);
 
-            String[] header = {"XValue","YValue","Throttle"};
+            String[] header = {"XValue", "YValue", "Throttle"};
             writer.writeNext(header);
 
-            String[] AUTO = {Double.toString(XValue()), Double.toString(YValue()),Double.toString(Throttle())};
-            writer.writeNext(AUTO);
-
-            writer.close();
+            while (DriverStation.getInstance().isAutonomous()) {
+                for (int count = 0; count < 15000; count++) {
+                    String[] AUTO = {Double.toString(XValue()), Double.toString(YValue()), Double.toString(Throttle())};
+                    writer.writeNext(AUTO);
+                    count += 1;
+                    if (count == 15000) {
+                        writer.close();
+                    }
+            }
+        }
         }
         catch (IOException e) {
             e.printStackTrace();
