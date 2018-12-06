@@ -2,6 +2,7 @@ package frc.team5115.robot;
 
 import edu.wpi.first.wpilibj.*;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import frc.team5115.Systems.DriveTrain;
 
 public class SmartDebug {
         //For testing purposes
@@ -44,6 +45,8 @@ public class SmartDebug {
         public static Relay RelayChannel1;
         public static Relay RelayChannel2;
         public static Relay RelayChannel3;
+
+        public static DriveTrain driveTrain;
 
     public void SmartDebug() {
         //Displaying data on shuffleboard
@@ -100,9 +103,7 @@ public class SmartDebug {
         SmartDashboard.putBoolean("Relay Channel 2 Values", RelayChannel2.isAlive());
         SmartDashboard.putBoolean("Relay Channel 3 Values", RelayChannel3.isAlive());
 
-        //SmartDashboard.putNumber("Left Side Encoder Values", backLeft.getSelectedSensorPosition(0));
-        //SmartDashboard.putNumber("Right Side Encoder Values", backRight.getSelectedSensorPosition(0));
-
-        //SmartDashboard.putBoolean("Ball Divertor Is Pointed towards Us", RobotMap.director.get(RobotMap.isOurs));
+        SmartDashboard.putNumber("Left Side Encoder Values", driveTrain.distanceTraveledLeft);
+        SmartDashboard.putNumber("Right Side Encoder Values", driveTrain.distanceTraveledRight);
     }
 }

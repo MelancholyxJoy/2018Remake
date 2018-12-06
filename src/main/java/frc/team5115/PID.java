@@ -28,7 +28,7 @@ public class PID {
         dError = -dReading;
         output = kp * error + ki * errorAccum + kd * dError;
         if (Math.abs(output) <= maxOutput) {
-            errorAccum += error * Constants.DELAY;
+            errorAccum += error * Constants.Delay;
         }
         if (Math.abs(output) > maxOutput) {
             output = maxOutput * Math.signum(output);

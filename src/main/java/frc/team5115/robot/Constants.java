@@ -3,16 +3,22 @@ package frc.team5115.robot;
 public class Constants {
 
     //PID values
-    public static final double DELAY = 0.005;
-    public static final double AUTO_FORWARD_KP = 0.4;
-    public static final double AUTO_FORWARD_KI = 0;
-    public static final double AUTO_FORWARD_KD = 0.1;
-    public static final double AUTO_TURN_KP = 0.06;
-    public static final double AUTO_TURN_KI = 0;
-    public static final double AUTO_TURN_KD = 0.05;
-    public static final double TURN_KD = 0.05;
-    public static final double TURN_KP = 0.3;
-    public static final double TURN_KI = 0.15;
+    public static final double Delay = 0.005;
+    public static final double AutoForwardKP = 0.4;
+    public static final double AutoForwardKI = 0;
+    public static final double AutoForwardKD = 0.1;
+    public static final double AutoTurnKP = 0.06;
+    public static final double AutoTurnKI = 0;
+    public static final double AutoTurnKD = 0.05;
+    public static final double TurnKD = 0.05;
+    public static final double TurnKP = 0.3;
+    public static final double TurnKI = 0.15;
+
+    //Tolerances
+    public static final double ForwardTolerance = 0.25;
+    public static final double ForwardDTolerance = 0.05;
+    public static final double TurnTolerance = 5;
+    public static final double TurnDTolerance = 15;
 
     //ID's
     public static int FrontLeftTalonID = 3;

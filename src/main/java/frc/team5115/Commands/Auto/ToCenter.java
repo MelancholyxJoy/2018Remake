@@ -6,6 +6,6 @@ import frc.team5115.robot.Robot;
 
 public class ToCenter extends Command {
     public ToCenter() { requires(Robot.driveTrain);}
-    protected void execute() { Robot.driveTrain.StartLine(3, Constants.AutoForwardSpeed);}
+    protected void execute() { Robot.driveTrain.StartLine(22, Constants.AutoForwardSpeed);}
     protected boolean isFinished() { return false; }
 }
