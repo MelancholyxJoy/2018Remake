@@ -4,15 +4,9 @@ import frc.team5115.robot.Constants;
 
 public class PID {
 
-    double kp;
-    double ki;
-    double kd;
-    double maxOutput;
+    double kp, ki, kd, maxOutput;
 
-    double error;
-    double errorAccum = 0;
-    double dError;
-    double output;
+    double error, errorAccum = 0, dError, output;
 
     public PID(double p, double i, double d, double max) {
         kp = p;

@@ -26,7 +26,7 @@ public class DriveTrain extends Subsystem {
 
     public double distanceTraveledRight = backRight.getSelectedSensorPosition(0) / 1440 * 6 * Math.PI / 12;
     public double distanceTraveledLeft = backLeft.getSelectedSensorPosition(0) / 1440 * 6 * Math.PI / 12;
-    //public double averageDistance = (distanceTraveledLeft + distanceTraveledRight) / 2;
+    public double averageDistance = (distanceTraveledLeft + distanceTraveledRight) / 2;
     public double leftSpeed = ((backLeft.getSelectedSensorVelocity(0) * 6 * Math.PI * 10)  / (1440 * 12));
     public double rightSpeed = ((backRight.getSelectedSensorVelocity(0) * 6 * Math.PI * 10)  / (1440 * 12));
     public double averageSpeed = (leftSpeed + rightSpeed) / 2;
