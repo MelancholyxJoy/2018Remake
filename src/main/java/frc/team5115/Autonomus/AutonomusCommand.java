@@ -10,5 +10,5 @@ public class AutonomusCommand extends CommandGroup {
         addSequential(new FullDump());
         addSequential(new Turn());
         addSequential(new ToCenter());
-    }
+        }
 }

@@ -18,6 +18,8 @@ public class Log {
     public static double throttle;
     public static double time = getFPGATimestamp();
 
+    //java logger, inherit
+
     public static void log(String file, String filePath) {
         try {
             File auto = new File(filePath);
@@ -34,7 +36,7 @@ public class Log {
             String[] nextRecord;
             while (DriverStation.getInstance().isAutonomous()) {
                 for (int count = 0; count <= 15000; count++) {
-                    String[] AUTO = {Double.toString(Controls.XValue()), Double.toString(Controls.YValue()), Double.toString(Controls.Throttle())};
+                    String[] AUTO = {Double.toString(Controls.getX()), Double.toString(Controls.getY()), Double.toString(Controls.getT())};
                     writer.writeNext(AUTO);
                     count += 1;
                     if (count == 15000 || time > 15) {

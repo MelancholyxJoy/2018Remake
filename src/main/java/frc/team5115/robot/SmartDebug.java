@@ -103,7 +103,7 @@ public class SmartDebug {
         SmartDashboard.putBoolean("Relay Channel 2 Values", RelayChannel2.isAlive());
         SmartDashboard.putBoolean("Relay Channel 3 Values", RelayChannel3.isAlive());
 
-        SmartDashboard.putNumber("Left Side Encoder Values", driveTrain.distanceTraveledLeft);
-        SmartDashboard.putNumber("Right Side Encoder Values", driveTrain.distanceTraveledRight);
+        SmartDashboard.putNumber("Left Side Encoder Values", driveTrain.distanceTraveledLeft());
+        SmartDashboard.putNumber("Right Side Encoder Values", driveTrain.distanceTraveledRight());
     }
 }

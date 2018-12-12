@@ -8,6 +8,7 @@ import static edu.wpi.first.wpilibj.Timer.getFPGATimestamp;
 
 public class FullDump extends Command {
     public FullDump() { requires(Robot.outtake);}
+    protected void initialize() {}
     protected void execute() {
         double time = getFPGATimestamp();
         if (time < 3) {
@@ -17,4 +18,5 @@ public class FullDump extends Command {
         }
     }
     protected boolean isFinished() { return false; }
+    protected void end() { Robot.outtake.takeout(0);}
 }

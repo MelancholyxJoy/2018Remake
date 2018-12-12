@@ -6,20 +6,13 @@ import frc.team5115.robot.Robot;
 
 public class Drive extends Command {
 
-    double xaxis;
-    double yaxis;
-    double throt;
-
+    public Drive() { requires(Robot.driveTrain); }
+    protected void initialize() {}
     protected void execute() {
-        xaxis = Controls.XValue();
-        yaxis = Controls.YValue();
-        throt = Controls.Throttle();
-        Robot.driveTrain.Drive( xaxis, yaxis, throt);
+        Robot.driveTrain.Drive(Controls.getY(), -Controls.getX(), Controls.getT());
     }
-
     protected boolean isFinished() {
         return false;
     }
     protected void end() { Robot.driveTrain.Drive(0,0,0);}
-
 }

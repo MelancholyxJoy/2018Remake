@@ -1,22 +1,23 @@
 package frc.team5115.Systems;
 
-import edu.wpi.first.wpilibj.Spark;
+import com.ctre.phoenix.motorcontrol.ControlMode;
+import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import frc.team5115.Commands.Intaker.NotIntaking;
 import frc.team5115.robot.Constants;
 
 public class Intaker extends Subsystem {
 
-    public static Spark intake;
+    public static TalonSRX intake;
 
     public Intaker() {
-        intake = new Spark(Constants.IntakeSpark);
+        intake = new TalonSRX(Constants.IntakeSpark);
     }
 
     @Override
-    protected void initDefaultCommand() { new NotIntaking();}
+    protected void initDefaultCommand() { setDefaultCommand(new NotIntaking());}
 
     public void takein(double IntakeSpeed) {
-        intake.set(IntakeSpeed);
+        intake.set(ControlMode.PercentOutput, IntakeSpeed);
     }
 }
