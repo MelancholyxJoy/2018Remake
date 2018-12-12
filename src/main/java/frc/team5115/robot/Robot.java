@@ -7,7 +7,8 @@ import frc.team5115.Autonomus.AutonomusCommand;
 import frc.team5115.Systems.*;
 
 public class Robot extends TimedRobot {
-
+    //Debug
+    public static SmartDebug smartDebug;
     //Subsystems
     public static DriveTrain driveTrain;
     public static Intaker intake;
@@ -15,14 +16,17 @@ public class Robot extends TimedRobot {
     public static Sorter sorter;
     public static BunnyLauncher bunnyLauncher;
 
+    //Auto
     private CommandGroup autonomusCommand;
 
     public void robotInit() {
+        smartDebug = new SmartDebug();
+
         driveTrain = new DriveTrain();
-        intake = new Intaker();
-        outtake = new Outtaker();
-        sorter = new Sorter();
-        bunnyLauncher = new BunnyLauncher();
+        //intake = new Intaker();
+        //outtake = new Outtaker();
+        //sorter = new Sorter();
+        //bunnyLauncher = new BunnyLauncher();
 
         autonomusCommand = new AutonomusCommand();
     }
@@ -32,9 +36,7 @@ public class Robot extends TimedRobot {
     public void disabledPeriodic () { }
 
     public void autonomousInit() {
-        if (autonomusCommand != null) {
-            autonomusCommand.start();
-        }
+        if (autonomusCommand != null) autonomusCommand.start();
     }
 
     public void autonomousPeriodic () {
@@ -46,6 +48,7 @@ public class Robot extends TimedRobot {
     }
 
     public void teleopPeriodic () {
+        smartDebug.SmartDebug();
         Scheduler.getInstance().run();
     }
 

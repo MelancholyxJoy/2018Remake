@@ -8,14 +8,10 @@ public class NotLaunching extends Command {
     public NotLaunching() { requires(Robot.bunnyLauncher);}
     protected void initialize() { }
     protected void execute() {
-        Robot.bunnyLauncher.launchBunnyOne.set(DoubleSolenoid.Value.kOff);
-        Robot.bunnyLauncher.launchBunnyTwo.set(DoubleSolenoid.Value.kOff);
-        Robot.bunnyLauncher.launchBunnyThree.set(DoubleSolenoid.Value.kOff);
+        Robot.bunnyLauncher.launchBunny.set(DoubleSolenoid.Value.kOff);
     }
     protected boolean isFinished() { return false; }
     protected void end() {
-        Robot.bunnyLauncher.launchBunnyOne.set(DoubleSolenoid.Value.kOff);
-        Robot.bunnyLauncher.launchBunnyTwo.set(DoubleSolenoid.Value.kOff);
-        Robot.bunnyLauncher.launchBunnyThree.set(DoubleSolenoid.Value.kOff);
+        Robot.bunnyLauncher.launchBunny.set(DoubleSolenoid.Value.kOff);
     }
 }

@@ -3,7 +3,9 @@ package frc.team5115.Logger;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import edu.wpi.first.wpilibj.DriverStation;
+import frc.team5115.robot.Constants;
 import frc.team5115.robot.Controls;
+import frc.team5115.robot.Robot;
 
 import java.io.File;
 import java.io.FileReader;
@@ -36,7 +38,7 @@ public class Log {
             String[] nextRecord;
             while (DriverStation.getInstance().isAutonomous()) {
                 for (int count = 0; count <= 15000; count++) {
-                    String[] AUTO = {Double.toString(Controls.getX()), Double.toString(Controls.getY()), Double.toString(Controls.getT())};
+                    String[] AUTO = {Double.toString(Controls.getX()), Double.toString(Controls.getY()), Double.toString(Constants.AutoForwardSpeed)};
                     writer.writeNext(AUTO);
                     count += 1;
                     if (count == 15000 || time > 15) {
@@ -46,6 +48,8 @@ public class Log {
                         xvalue = Double.parseDouble(nextRecord[0]);
                         yvalue = Double.parseDouble(nextRecord[1]);
                         throttle = Double.parseDouble(nextRecord[2]);
+
+                        Robot.driveTrain.Drive(xvalue,yvalue,throttle);
                     }
                 }
             }

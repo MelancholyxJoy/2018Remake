@@ -20,9 +20,7 @@ public class DriveTrain extends Subsystem {
 
     private static AHRS navx;
 
-
     private boolean line = false;
-    private boolean done = false;
     private double targetDistance;
     private double targetAngle;
 
@@ -49,9 +47,9 @@ public class DriveTrain extends Subsystem {
         setDefaultCommand(new Drive());
     }
 
-    public void Drive(double xaxis, double  yaxis, double throt) {
-        double leftspeed = (xaxis + yaxis) * throt;
-        double rightspeed = (yaxis - xaxis) * throt;
+    public void Drive(double xaxis, double  yaxis, double throttle) {
+        double leftspeed = (yaxis + (xaxis * Constants.XSensetivity)) * throttle;
+        double rightspeed = (yaxis - (xaxis * Constants.XSensetivity)) * throttle;
 
         backLeft.set(ControlMode.PercentOutput, leftspeed);
         backRight.set(ControlMode.PercentOutput, rightspeed);
@@ -114,8 +112,6 @@ public class DriveTrain extends Subsystem {
             Turn += 0.15 * Math.signum(Turn);
         }
         Robot.driveTrain.Drive(Forward, Turn, Constants.AutoForwardSpeed);
-
-        System.out.println("Currently active Auto 1");
     }
     private double clearSteer(double yaw, double target) {
         if (Math.abs(target - yaw) > 180) {

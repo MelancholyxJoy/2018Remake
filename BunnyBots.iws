@@ -2,38 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e1589b-8e33-4694-9a3f-592bf92937f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BunnyBots.iws" beforeDir="false" afterPath="$PROJECT_DIR$/BunnyBots.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/PID.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/PID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/Systems/DriveTrain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/Systems/DriveTrain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/Systems/Outtaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/Systems/Outtaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/robot/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/robot/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/robot/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frc/team5115/robot/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/java.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/java.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyExtender/Extend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyExtender/NotExtending.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/Intaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/Intaking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/NotIntaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/NotIntaking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyExtender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/DriveTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/DriveTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Intaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Intaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Outtaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Outtaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Controls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Robot.java" afterDir="false" />
@@ -55,10 +37,10 @@
     <session id="-634063698">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="3" />
@@ -80,20 +62,20 @@
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
           <entry key="gradle" value="6" />
-          <entry key="java" value="463" />
+          <entry key="java" value="571" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="463" />
+          <entry key="JAVA" value="571" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
@@ -101,13 +83,13 @@
         <counts>
           <entry key="dummy" value="299" />
           <entry key="gradle" value="40" />
-          <entry key="java" value="24486" />
+          <entry key="java" value="26613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="40" />
-          <entry key="JAVA" value="24486" />
+          <entry key="JAVA" value="26613" />
           <entry key="PLAIN_TEXT" value="299" />
         </counts>
       </usages-collector>
@@ -116,13 +98,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Controls.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+            <state relative-caret-position="119">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/FullDump.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/Outtaking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/NotOuttaking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/NotIntaking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/Intaking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <folding>
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/SmartDebug.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Subsystems/Intake.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Subsystems/Outtake.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Subsystems/BallDivertor.java" />
@@ -180,37 +248,38 @@
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/AutoDrive.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Writer.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/FullDump.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/PID.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/Outtaking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BallWheel.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyExtender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Intaker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/Intaking.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/NotIntaking.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/TheirColor.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/OurColor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Outtaker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/SmartDebug.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/HeadBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyExtender/Launch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/DriveTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyExtender/NotLaunching.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyExtender/LaunchBunnyTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyThree.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunny.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Systems/DriveTrain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/FullDump.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Controls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/Robot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/robot/SmartDebug.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java" />
       </list>
     </option>
   </component>
@@ -230,7 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -364,10 +432,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../robot" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -411,7 +480,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23298033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -434,7 +503,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -451,7 +520,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32980332" />
@@ -465,7 +534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Systems/Flap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Subsystems/FlapManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/IntakeManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/FlapManager.java" />
@@ -503,184 +571,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/AutoDrive.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Writer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/LookingAtColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Intaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/NotIntaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/Intaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/Outtaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/NotOuttaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/OurColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/FullDump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="23" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/PID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Outtaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/SmartDebug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="105" column="92" lean-forward="true" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/TheirColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/DriveTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/OurColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/TheirColor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -699,20 +591,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunnyOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunny.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="136">
+          <caret line="10" column="24" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/PID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BallWheel/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Controls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        <state relative-caret-position="151">
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/LaunchBunny.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Sorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Outtaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/Intaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/BunnyLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="102" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Systems/DriveTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="113" column="10" lean-forward="true" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/SmartDebug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Logger/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/robot/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Drive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/Outtaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Outtaker/NotOuttaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/NotIntaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Intaker/Intaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/BunnyLauncher/NotLaunching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/Turn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/ToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Commands/Auto/FullDump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5115/Autonomus/AutonomusCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>

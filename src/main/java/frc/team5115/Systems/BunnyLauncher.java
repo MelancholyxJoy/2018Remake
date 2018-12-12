@@ -7,14 +7,10 @@ import frc.team5115.robot.Constants;
 
 public class BunnyLauncher extends Subsystem {
 
-    public DoubleSolenoid launchBunnyOne;
-    public DoubleSolenoid launchBunnyTwo;
-    public DoubleSolenoid launchBunnyThree;
+    public DoubleSolenoid launchBunny;
 
     public BunnyLauncher() {
-        launchBunnyOne = new DoubleSolenoid(Constants.PCMIDBunnyOne, Constants.BunnyOneForward, Constants.BunnyOneReverse);
-        launchBunnyTwo = new DoubleSolenoid(Constants.PCMIDBunnyTwo, Constants.BunnyTwoForward, Constants.BunnyTwoReverse);
-        launchBunnyThree = new DoubleSolenoid(Constants.PCMIDBunnyThree, Constants.BunnyThreeForward, Constants.BunnyThreeReverse);
+        launchBunny = new DoubleSolenoid(Constants.PCMIDBunny, Constants.BunnyForward, Constants.BunnyReverse);
     }
     protected void initDefaultCommand() { setDefaultCommand(new NotLaunching());}
 }

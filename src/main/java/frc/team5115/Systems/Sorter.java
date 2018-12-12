@@ -7,18 +7,22 @@ import frc.team5115.Commands.BallWheel.Sorting;
 import frc.team5115.robot.Constants;
 
 public class Sorter extends Subsystem {
-    public boolean Ours;
-    public boolean Theirs;
+    public boolean OurColor;
+    public boolean TheirColor;
 
-    public static Spark ballSifter;
-    public static DigitalInput limitSwitch;
+    public Spark ballSifter;
+    public DigitalInput homePosition;
+    public DigitalInput ourPosition;
+    public DigitalInput theirPosition;
 
     public Sorter() {
         ballSifter = new Spark(Constants.BallSifterID);
-        limitSwitch = new DigitalInput(Constants.LimitSwitchID);
+        homePosition = new DigitalInput(Constants.HomePositionLimitSwitchID);
+        ourPosition = new DigitalInput(Constants.OurPositionLimitSwitchID);
+        theirPosition = new DigitalInput(Constants.TheirPositionLimitSwitchID);
     }
     protected void initDefaultCommand() { setDefaultCommand(new Sorting()); }
-    public void Turn(double angle, double speed) {
-            ballSifter.set(speed);
+    public void Turn(double speed) {
+        ballSifter.set(speed);
     }
 }

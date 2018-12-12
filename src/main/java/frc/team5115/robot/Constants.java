@@ -1,12 +1,20 @@
 package frc.team5115.robot;
 
 public class Constants {
-    public static final int AXIS_X = 0;
+    public static final int AXIS_X = 2;
     public static final int AXIS_Y = 1;
     public static final int AXIS_THROTTLE = 3;
 
     public static final double JOYSTICK_DEADBAND = 0.025;
     public static final int JOYSTICK_EXPO = 2;
+
+    public static final double XSensetivity = .8;
+
+    //Throttle
+    public static double InitialThrottle = .5;
+
+    //Sorter Delay
+    public static double SorterDelay = 1;
 
     //PID values
     public static final double Delay = 0.005;
@@ -39,22 +47,16 @@ public class Constants {
 
     public static int IntakeSpark = 1;
 
-    public static int LimitSwitchID;
+    public static int HomePositionLimitSwitchID;
+    public static int OurPositionLimitSwitchID;
+    public static int TheirPositionLimitSwitchID;
 
     //Solenoid
-    public static int BunnyOneForward = 1;
-    public static int BunnyOneReverse = 2;
-
-    public static int BunnyTwoForward = 3;
-    public static int BunnyTwoReverse = 4;
-
-    public static int BunnyThreeForward = 5;
-    public static int BunnyThreeReverse = 6;
+    public static int BunnyForward = 1;
+    public static int BunnyReverse = 2;
 
     //PCM ID's
-    public static int PCMIDBunnyOne = 1;
-    public static int PCMIDBunnyTwo = 2;
-    public static int PCMIDBunnyThree = 3;
+    public static int PCMIDBunny = 1;
 
     //Speeds
     public static double IntakeOnSpeed = 1;
@@ -64,16 +66,12 @@ public class Constants {
     public static double AutoTurnSpeed = .5;
     public static double AutoForwardSpeed = .5;
 
-    public static double SorterTurnSpeed = 1;
-
-    //Ball Sorter Values
-    public static double OurPoint = 120;
-    public static double TheirPoint = 120;
+    public static double SorterTurnSpeed = .75;
 
     //Button ID's
-    public static final int Intake = 5;
-    public static final int Outtake = 6;
-    public static final int LaunchBunnyOne = 7;
-    public static final int LaunchBunnyTwo = 8;
-    public static final int LaunchBunnyThree = 9;
+    public static final int Intake = 1;
+    public static final int Outtake = 2;
+    public static final int DecreaseThrottle = 5;
+    public static final int IncreaseThrottle = 6;
+    public static final int LaunchBunny = 7;
 }
