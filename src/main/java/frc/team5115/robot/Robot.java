@@ -1,57 +1,27 @@
 package frc.team5115.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj.command.CommandGroup;
+import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Scheduler;
-import frc.team5115.Autonomus.AutonomusCommand;
-import frc.team5115.Systems.*;
+import frc.team5115.Auto.ToCenter;
+import frc.team5115.Systems.ControlCentral;
 
 public class Robot extends TimedRobot {
-    //Debug
-    public static SmartDebug smartDebug;
-    //Subsystems
-    public static DriveTrain driveTrain;
-    public static Intaker intake;
-    public static Outtaker outtake;
-    public static Sorter sorter;
-    public static BunnyLauncher bunnyLauncher;
 
-    //Auto
-    private CommandGroup autonomusCommand;
+    public static ControlCentral controlCentral;
 
     public void robotInit() {
-        smartDebug = new SmartDebug();
-
-        driveTrain = new DriveTrain();
-        //intake = new Intaker();
-        //outtake = new Outtaker();
-        //sorter = new Sorter();
-        //bunnyLauncher = new BunnyLauncher();
-
-        autonomusCommand = new AutonomusCommand();
+        controlCentral = new ControlCentral();
     }
-
-    public void testInit () { }
-
-    public void disabledPeriodic () { }
-
-    public void autonomousInit() {
-        if (autonomusCommand != null) autonomusCommand.start();
-    }
-
     public void autonomousPeriodic () {
-        Scheduler.getInstance().run();
+        if(Timer.getFPGATimestamp() > 2){
+            ToCenter.update(1);
+        } else {
+            ToCenter.update(0);
+        }
     }
-
-    public void teleopInit() {
-        autonomusCommand.cancel();
-    }
-
     public void teleopPeriodic () {
-        smartDebug.SmartDebug();
         Scheduler.getInstance().run();
     }
 
-    public void testPeriodic () {
-    }
 }

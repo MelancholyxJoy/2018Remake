@@ -1,22 +1,16 @@
 package frc.team5115.robot;
 
 public class Constants {
+    //Joystick
     public static final int AXIS_X = 2;
     public static final int AXIS_Y = 1;
-    public static final int AXIS_THROTTLE = 3;
-
-    public static final double JOYSTICK_DEADBAND = 0.025;
-    public static final int JOYSTICK_EXPO = 2;
-
-    public static final double XSensetivity = .8;
-
-    //Throttle
-    public static double InitialThrottle = .5;
+    public static final double XSensitivity = 1;
 
     //Sorter Delay
-    public static double SorterDelay = 1;
+    public static double OurColorSorterDelay = 1;
+    public static double TheirSideSorterDelay = 1;
 
-    //PID values
+    //PID Values
     public static final double Delay = 0.005;
     public static final double AutoForwardKP = 0.4;
     public static final double AutoForwardKI = 0;
@@ -27,9 +21,6 @@ public class Constants {
     public static final double TurnKD = 0.05;
     public static final double TurnKP = 0.3;
     public static final double TurnKI = 0.15;
-    public static final double SorterTurnKP = 0;
-    public static final double SorterTurnKI = 0;
-    public static final double SorterTurnKD = 0;
 
     //Tolerances
     public static final double ForwardTolerance = 0.25;
@@ -37,41 +28,48 @@ public class Constants {
     public static final double TurnTolerance = 5;
     public static final double TurnDTolerance = 15;
 
-    //ID's
-    public static int FrontLeftTalonID = 3;
-    public static int FrontRightTalonID = 4;
-    public static int BackLeftTalonID = 1;
-    public static int BackRightTalonID = 2;
-    public static int OuttakeSparkID = 5;
-    public static int BallSifterID = 6;
+    //Talon ID's
+    public static int FrontLeftTalonID = 1;
+    public static int FrontRightTalonID = 2;
+    public static int BackLeftTalonID = 3;
+    public static int BackRightTalonID = 4;
+    public static int IntakeTalon = 5;
 
-    public static int IntakeSpark = 1;
+    //Spark ID's
+    public static int OuttakeSparkID = 2;
+    public static int BallSorterID = 1;
+    public static int BallSifterID = 0;
 
-    public static int HomePositionLimitSwitchID;
-    public static int OurPositionLimitSwitchID;
-    public static int TheirPositionLimitSwitchID;
+    //DIO ID's
+    public static int HomePositionLimitSwitchID = 1;
+    public static int OurPositionLimitSwitchID = 0;
+    public static int TheirPositionLimitSwitchID = 2;
 
     //Solenoid
-    public static int BunnyForward = 1;
-    public static int BunnyReverse = 2;
-
-    //PCM ID's
-    public static int PCMIDBunny = 1;
+    public static int PCMIDBunny = 7;
+    public static int BunnyForward = 0;
+    public static int BunnyReverse = 1;
 
     //Speeds
-    public static double IntakeOnSpeed = 1;
-    public static double OuttakeOnSpeed = .75;
+    public static double IntakeON = .5;
+    public static double IntakeIDLE = .3;
+    public static double OuttakeOnSpeed = .5;
     public static double FullDump = 1;
+    public static double SorterTurnSpeed = .5;
+    public static double SifterTurnSpeed = .5;
 
     public static double AutoTurnSpeed = .5;
     public static double AutoForwardSpeed = .5;
 
-    public static double SorterTurnSpeed = .75;
-
     //Button ID's
-    public static final int Intake = 1;
-    public static final int Outtake = 2;
+    public static final int Intake = 8;
+    public static final int Outtake = 7;
     public static final int DecreaseThrottle = 5;
     public static final int IncreaseThrottle = 6;
-    public static final int LaunchBunny = 7;
+    public static final int Launch = 1;
+    public static final int Retract = 2;
+    public static final int Sift = 3;
+
+    public static final int ToOuttake = 9;
+    public static final int ThrowOut = 10;
 }
